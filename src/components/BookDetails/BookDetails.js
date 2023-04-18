@@ -24,8 +24,10 @@ const BookDetails = () => {
             //const {item} = res;
             console.log(res.data, 'detail')
             if (res.data) {
+              // api'den gelen data içerisindeki volumeInfodan gerekli bilgiler ilgili değişkenlere alındı
               const { description, pageCount, publisher, imageLinks, publishedDate, title } = res.data.volumeInfo;
               console.log(imageLinks.thumbnail,'asd')
+              // yeni liste oluşturulup değişkenlere yeni değerler atandı
               const newBook = {
                 description: description ? description : 'No description found',
                 title: title,
@@ -51,6 +53,7 @@ const BookDetails = () => {
   }, [id])
   console.log(book.description,'2312312')
 
+  // html etiketleri ile gelen text içerisinden etiketler kaldırıldı
   function removeTags(str) {
     if(str){
       if ((str===null) || (str===''))

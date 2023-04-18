@@ -5,6 +5,7 @@ import coverImg from '../../images/cover_not_found.jpg';
 import Book from '../BookList/Book'
 
 const BookList = () => {
+  // Context içerisinden ilgili değişenler alındı
   const { books, loading, resultTitle, pageCount} = useBooks();
 
   const booksWithCovers = books.map((singleBook) => {
