@@ -1,3 +1,13 @@
+# Pictures Related To The Project
+
+<img src="https://user-images.githubusercontent.com/77547205/232356114-71e51ad6-8e26-4267-bd61-6eaedb60041d.png" alt="Detaylı kitap görünümü" width="50%" height="100%">
+<hr/>
+<img src="https://user-images.githubusercontent.com/77547205/232356111-d18b7d63-6099-4175-a7ba-4365b75c665e.png" alt="Detaylı kitap görünümü" width="50%">
+<hr/>
+<img src="https://user-images.githubusercontent.com/77547205/232356116-fbc5252e-a27f-42f6-b458-5e69dc5e92b9.png" alt="Detaylı kitap görünümü" width="50%">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
